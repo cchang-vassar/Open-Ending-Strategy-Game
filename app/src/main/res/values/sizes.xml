@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="row_height">60dp</dimen>
+    <dimen name="box_width">0dp</dimen>
+    <integer name="box_weight">1</integer>
+    <dimen name="button_weight_x">0.5</dimen>
+    <dimen name="button_weight_y">0.6</dimen>
+    <dimen name="constraint_size">32dp</dimen>
+    <dimen name="character_size">35sp</dimen>
+    <dimen name="row_margin">5dp</dimen>
+    <dimen name="col_margin">3dp</dimen>
+    <dimen name="box_border">2dp</dimen>
+</resources>

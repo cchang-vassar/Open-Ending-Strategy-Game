@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">The Nice Neuroscientists</string>
+
+    <string name="wordle_win">You guessed the word! Good job!</string>
+    <string name="wordle_lose">Sorry, you didn\'t get the word right.\nThe correct word is \"%1$s\".</string>
+    <string name="wordle_invalid">Invalid word.</string>
+    <string name="wordle_short">Not enough letters.</string>
+
+    <string name="wordle_timer">Time left: %d mins %d s.</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="quit">I QUIT</string>
+    <string name="start_wordle">START</string>
+    <string name="tutorial"> HOW TO PLAY</string>
+    <string name="tutorial_summary">Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word.</string>
+    <string name="tutorial_demo">Here are some examples:</string>
+    <string name="peach_ex">P is in the word and in the correct spot.</string>
+    <string name="slope_ex">L is in the word but in the wrong spot.</string>
+    <string name="juice_ex"> C is not in the word in any spot.</string>
+
+    <string name="success_end">You have been successfully recruited by\nDr. Nemur and Dr. Strauss\nfor their mysterious study.\n\nGood luck!</string>
+    <string name="failure_end">Dr. Strauss and Dr. Nemur scoff and leave you.\nYou watch as they approach your friend, who solves\nthe Wordle in 1 try. As the two neuroscientists\nusher her to the door, you notice them glancing\nnervously at the men\'s room.\n\nFive minutes later, her partner walks out from the room,\nlooking around in confusion.</string>
+
+    <string name="start_over">Start Over</string>
+</resources>

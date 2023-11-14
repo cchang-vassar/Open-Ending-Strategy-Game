@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color = "@color/conference_white" />
+    <stroke
+        android:width="@dimen/box_border"
+        android:color="@color/conference_purple" />
+</shape>

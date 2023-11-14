@@ -1,0 +1,518 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conference_background"
+    tools:context=".view.WordleFragment">
+
+    <LinearLayout
+        android:id="@+id/wordle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/constraint_size"
+        android:layout_marginTop="@dimen/constraint_size"
+        android:layout_marginEnd="@dimen/constraint_size"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <edu.vassar.neuroscientists.view.LinearWord
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="@dimen/row_margin"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+        </edu.vassar.neuroscientists.view.LinearWord>
+
+        <edu.vassar.neuroscientists.view.LinearWord
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="@dimen/row_margin"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+        </edu.vassar.neuroscientists.view.LinearWord>
+
+        <edu.vassar.neuroscientists.view.LinearWord
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="@dimen/row_margin"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+        </edu.vassar.neuroscientists.view.LinearWord>
+
+        <edu.vassar.neuroscientists.view.LinearWord
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="@dimen/row_margin"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+        </edu.vassar.neuroscientists.view.LinearWord>
+
+        <edu.vassar.neuroscientists.view.LinearWord
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="@dimen/row_margin"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+        </edu.vassar.neuroscientists.view.LinearWord>
+
+        <edu.vassar.neuroscientists.view.LinearWord
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="@dimen/row_margin"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <edu.vassar.neuroscientists.view.EditLetter
+                android:layout_width="@dimen/box_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/col_margin"
+                android:layout_marginEnd="@dimen/col_margin"
+                android:layout_weight="@integer/box_weight"
+                android:background="@drawable/wordle_white"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:textSize="@dimen/character_size"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+        </edu.vassar.neuroscientists.view.LinearWord>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timer_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wordle_layout"
+        android:layout_marginEnd="@dimen/constraint_size"
+        android:layout_marginTop="@dimen/row_margin"
+        android:text="@string/wordle_timer"
+        android:textColor="@color/conference_white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="120dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/wordle_try_again_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/try_again"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="@dimen/button_weight_x"
+            app:layout_constraintVertical_bias="@dimen/button_weight_y"
+            android:layout_margin="16dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/wordle_quit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="@dimen/button_weight_x"
+            app:layout_constraintVertical_bias="@dimen/button_weight_y"
+            android:layout_margin="16dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
